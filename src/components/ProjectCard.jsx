@@ -1,11 +1,11 @@
 import React from "react";
 
-const ProjectCard = ({ title, text, imageAlt, link1, link2, button1Text, button2Text }) => {
+const ProjectCard = ({ title, text, imageSrc, imageAlt, link1, link2, button1Text, button2Text }) => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure>
         <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+          src={imageSrc}
           alt={imageAlt}
         />
       </figure>
