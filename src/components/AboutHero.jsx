@@ -11,8 +11,7 @@ const AboutHero = () => {
         <div>
           <h1 className="text-5xl font-bold">About Me!</h1>
           <p className="py-6">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi.
+            I graduated from ASU with a B.A. in Art History in December 2023. Towards the end of completing my degree I decided to take on a new and exciting challenge and enrolled in a Full-Stack Coding Bootcamp. My bootcamp was six months long and pushed me to learn things I had never even heard of before. HTML, CSS, JavaScript, React, Node.js, and MySQL are just a few of the skills I was able to learn about. My passion for creativity and art fuels my desire to continue learning and challenging my web development skills. Check out the rest of my skills below!
           </p>
         </div>
       </div>
