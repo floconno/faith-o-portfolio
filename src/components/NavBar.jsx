@@ -42,7 +42,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className="navbar-right">
-        <a className="btn btn-ghost text-xl">Faith O'Connor</a>
+        <a className="btn btn-ghost text-xl">Faith O'Connor's Portfolio</a>
       </div>
       <div className="navbar-end">
       </div>

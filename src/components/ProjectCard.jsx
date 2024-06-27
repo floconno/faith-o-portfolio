@@ -7,6 +7,7 @@ const ProjectCard = ({ title, text, imageSrc, imageAlt, link1, link2, button1Tex
         <img
           src={imageSrc}
           alt={imageAlt}
+          className="project-img"
         />
       </figure>
       <div className="card-body">
