@@ -4,6 +4,7 @@ import nodemailer from 'nodemailer';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import path from 'path';
 
 dotenv.config();
 
@@ -40,9 +41,11 @@ app.post('/send', (req, res) => {
     });
   });
 
-  app.get('/', (req, res) => {
-    res.send('Hello, this is your Express server running on Heroku.');
-  });
+  app.use(express.static(path.join(__dirname, 'build')));
+
+  app.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
   
   
   app.listen(PORT, () => {
