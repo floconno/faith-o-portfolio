@@ -15,7 +15,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://faith-o-portfolio.vercel.app/send", {
+      const response = await fetch("https://faith-o-portfolio-e8a9b25a7078.herokuapp.com/send", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
